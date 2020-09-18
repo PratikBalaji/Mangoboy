@@ -8,7 +8,7 @@ class Stone {
       }
       this.body = Bodies.circle(x,y,diameter,options);
       this.diameter = diameter;
-      this.stone=loadImage("Sprites/stone.png");
+      this.stone=loadImage("stone.png");
       World.add(world, this.body);
     }
   
